@@ -1,0 +1,98 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+    color: #8B322C;
+    font-size: 25px;
+    height: 30px;
+    padding: 85px 0 0 100px;
+    text-decoration: underline;
+}
+.heading h2{
+    font-family: serif;
+}
+
+.container{
+    background-image: url("temperatur\ converter.avif");
+    background-size: cover;
+    height: 700px;
+}
+#calcTemp{
+    background-color: #F7DCB9;
+    border-radius: 10px;
+    height: 400px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 115px;
+    padding: 30px 25px 30px 25px;
+    border:2px solid #8B322C;
+    box-shadow: rgba(144, 81, 81, 0.12) 0px 1px 3px, rgba(150, 43, 43, 0.24) 0px 1px 2px;
+}
+#first{
+    display: flex; 
+}
+p{
+    font-size: 20px;
+}
+#p1{
+   margin-right: 180px;
+}
+#second{
+    display: flex;
+}
+.temp_diff{
+    width: 210px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #ADBC9F;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    padding-left: 5px;
+}
+#temp_diff1{
+    padding-right: 22px;
+}
+
+#temp{
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #ADBC9F;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+#result{
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #ADBC9F;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #ADBC9F;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #AF8260;
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+#submit:hover{
+    border:2px solid black;
+    cursor: pointer;
+    background-color: #8B322C;
+    color: white;
+}
